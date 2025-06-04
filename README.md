@@ -82,6 +82,6 @@ Tokenization (Behind the Scenes): When you send_message(user_input), your text i
 Chat History: chat = model.start_chat(history=[]) and chat.send_message() automatically manage and send the past conversation turns (tokens) to the LLM, giving it context for your current input.
 Embeddings & RAG: Not directly used in this basic setup, but these would come into play if you wanted your chatbot to answer questions based on your specific documents (RAG) or perform semantic search (Embeddings).
 Hallucinations: In this basic setup, the LLM might still hallucinate if it doesn't know the answer. RAG is the solution for this in more advanced applications.
-
+A
 
 
